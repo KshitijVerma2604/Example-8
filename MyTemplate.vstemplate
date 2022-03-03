@@ -1,0 +1,30 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Example 8 Prac</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Example 8 Prac</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Example 8 Prac.vbproj" File="Example 8 Prac.vbproj" ReplaceParameters="true">
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.myapp">Application.myapp</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Application.Designer.vb">Application.Designer.vb</ProjectItem>
+      </Folder>
+      <Folder Name=".vs" TargetFolderName=".vs" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationEvents.vb">ApplicationEvents.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.vb">Form1.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.vb">Form1.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
